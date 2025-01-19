@@ -17,7 +17,7 @@ import HostVanPricing from './pages/Host/HostVanPricing';
 import HostVanPhotos from './pages/Host/HostVanPhotos';
 
 
-import "./vanapp/server"
+import "./server"
 
 function App() {
   return (
