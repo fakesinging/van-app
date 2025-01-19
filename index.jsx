@@ -1,19 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import About from "./vanapp/pages/About"
-import Vans from "./vanapp/pages/Vans/Vans"
-import { VanDetails } from './vanapp/pages/Vans/VanDetails';
-import Dashboard from './vanapp/pages/Host/Dashboard';
-import Income from './vanapp/pages/Host/Income';
-import Reviews from './vanapp/pages/Host/Reviews';
-import HostLayout from './vanapp/components/HostLayout';
-import HostVans from './vanapp/pages/Host/HostVans';
-import HostVanDetails from './vanapp/pages/Host/HostVanDetails';
-import Layout from "./vanapp/components/Layout"
-import HostVanInfo from './vanapp/pages/Host/HostVanInfo';
-import HostVanPricing from './vanapp/pages/Host/HostVanPricing';
-import HostVanPhotos from './vanapp/pages/Host/HostVanPhotos';
+import Home from './pages/Home';
+import About from "./pages/About"
+import Vans from "./pages/Vans/Vans"
+import { VanDetails } from './pages/Vans/VanDetails';
+import Dashboard from './pages/Host/Dashboard';
+import Income from './pages/Host/Income';
+import Reviews from './pages/Host/Reviews';
+import HostLayout from './components/HostLayout';
+import HostVans from './pages/Host/HostVans';
+import HostVanDetails from './pages/Host/HostVanDetails';
+import Layout from "./components/Layout"
+import HostVanInfo from './pages/Host/HostVanInfo';
+import HostVanPricing from './pages/Host/HostVanPricing';
+import HostVanPhotos from './pages/Host/HostVanPhotos';
 
 
 import "./vanapp/server"
