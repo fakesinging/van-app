@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import Home from "./vanapp/pages/Home"
 import About from "./vanapp/pages/About"
 import Vans from "./vanapp/pages/Vans/Vans"
 import { VanDetails } from './vanapp/pages/Vans/VanDetails';
